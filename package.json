@@ -1,14 +1,20 @@
 {
-  "name": "essteling_beacon_filter_api",
-  "version": "1.0.0",
-  "description": "hier kan je de laatste addressen vandaan halen om te weten naar welke beacons de app moet zoeken",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "sven",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+	"name": "essteling_beacon_filter_api",
+	"version": "1.0.0",
+	"description": "hier kan je de laatste addressen vandaan halen om te weten naar welke beacons de app moet zoeken",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+  
+	"author": "sven",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.3"
+	}
 }
