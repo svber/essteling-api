@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "hier kan je de mac addrressen ophalen",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,4 +17,8 @@
     "url": "https://github.com/svber/essteling-api/issues"
   },
   "homepage": "https://github.com/svber/essteling-api#readme"
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
 }
