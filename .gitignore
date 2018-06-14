@@ -1,7 +1,3 @@
-# Files and directories to be ignored by git
-# Node build artifacts
+# Created by .ignore support plugin (hsz.mobi)
 node_modules
-# WebStorm IDE
 .idea
-# MacOS
-.DS_Store

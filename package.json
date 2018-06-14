@@ -1,8 +1,8 @@
 {
   "name": "essteling-api",
   "version": "1.0.0",
-  "description": "essteling-api",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/svber/essteling-api.git"
   },
-  "author": "sven",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/svber/essteling-api/issues"
