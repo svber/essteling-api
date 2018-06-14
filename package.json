@@ -1,20 +1,29 @@
 {
-  "name": "essteling-api",
+  "name": "cmproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/svber/essteling-api.git"
+    "url": "git+https://github.com/BeeBeeEight/CmProject.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/svber/essteling-api/issues"
+    "url": "https://github.com/BeeBeeEight/CmProject/issues"
   },
-  "homepage": "https://github.com/svber/essteling-api#readme"
+  "engines": {
+  	"node": "6.11.1"
+  },
+  "homepage": "https://github.com/BeeBeeEight/CmProject#readme"
 }
