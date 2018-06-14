@@ -1,16 +1,23 @@
 {
-	"name": "essteling_beacon_filter_api",
-	"version": "1.0.0",
-	"description": "hier kan je de laatste addressen vandaan halen om te weten naar welke beacons de app moet zoeken",
-		
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js"
-	},
-  
-	"author": "sven",
-	"license": "ISC",
-	"dependencies": {
-		"express": "^4.16.3"
-	}
+  "name": "essteling-api",
+  "version": "1.0.0",
+  "description": "hier kan je de mac addrressen ophalen",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svber/essteling-api.git"
+  },
+  "author": "sven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svber/essteling-api/issues"
+  },
+  "homepage": "https://github.com/svber/essteling-api#readme"
 }
